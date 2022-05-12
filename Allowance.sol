@@ -48,7 +48,7 @@ contract Allowance {
 
  
 
-        if(!msg.sender = _mowner){ 
+        if(!msg.sender = owner){ 
 
             reduceamount(add,_amount); 
         } 
